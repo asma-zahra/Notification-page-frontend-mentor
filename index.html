@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Notifications page</title>
+
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Notifications <span id="count"></span></h1>
+      <button class="markReadButton">  Mark all as read</button>
+    </header>
+    <article>
+      <ul>
+        <li class="unread">
+          <figure>
+            <img src="assets/images/avatar-mark-webber.webp" alt="mark-webber" width="90" height="90">
+          </figure>
+          <figcaption>
+            <p >
+              <b class="name"> Mark Webber</b> reacted to your recent post <em class="activity"> My first tournament today! </em> <span class="dot"></span>
+            </p>
+            <p class="time"> 1m ago</p>
+          </figcaption>
+        </li>
+        <li class="unread">
+          <figure>
+            <img src="assets/images/avatar-angela-gray.webp" alt="angela-gray." width="90" height="90">
+          </figure>
+          <figcaption>
+            <p class="">
+              <b class="name">Angela Gray </b>followed you <span class="dot"></span>
+            </p>
+            <p class="time">5m ago</p>
+          </figcaption>
+        </li>
+        <li class="unread">
+          <figure>
+            <img src="assets/images/avatar-jacob-thompson.webp" alt="jacob-thompson" width="90" height="90">
+          </figure>
+          <figcaption>
+            <p class="">
+              <b class="name">Jacob Thompson</b>has joined your group <em class="chess"> Chess Club </em> <span class="dot"></span>
+            </p>
+            <p class="time">1day ago</p>
+          </figcaption>
+        </li>
+        <li>
+          <figure>
+            <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="rizky-hasanuddin" width="90" height="90">
+          </figure>
+          <figcaption>
+            <p class="read">
+              <b class="name">Rizky Hasanuddin</b>   sent you a private message
+            </p>
+            <p class="time"> 5 days ago </p>
+            <p class="message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+          </figcaption>
+        </li>
+        <li>
+          <figure>
+            <img src="assets/images/avatar-kimberly-smith.webp" alt="kimberly-smith" width="90" height="90">
+          </figure>
+          <figcaption>
+            <p class="">
+              <b class="name">Kimberly Smith</b>commented on your picture
+            </p>
+            <p class="time">1 week ago</p>
+          </figcaption>
+            <img src="./assets/images/image-chess.webp" alt="Chess club" class="picture">
+          
+        </li>
+        <li>
+          <figure>
+            <img src="assets/images/avatar-nathan-peterson.webp" alt="nathan-peterson" width="90" height="90">
+          </figure>
+          <figcaption>
+            <p>
+              <b class="name">Nathan Peterson</b>reacted to your recent post <em class="activity"> 5 end-game strategies to increase your win rate</em> 
+            </p>
+            <p class="time">2 weeks ago</p>
+          </figcaption>
+        </li>
+        <li>
+          <figure>
+            <img src="assets/images/avatar-anna-kim.webp" alt="avatar-mark-webber." width="90" height="90">
+          </figure>
+          <figcaption>
+            <p>
+              <b class="name">Anna Kim</b> left the group <em class="chess">Chess Club</em> 
+            </p>
+            <p class="time">2 weeks ago</p>
+          </figcaption>
+        </li>  
+      </ul>
+    </article>
+  </main>
+</body>
+<script src="app.js"></script>
+<footer>
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+  Coded by <a href="https://www.linkedin.com/in/asma-zahra/">Asma Zahra</a>.
+</footer>
+</html>
